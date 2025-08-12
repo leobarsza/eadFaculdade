@@ -17,7 +17,7 @@ int main()
     {
         for (int j = 0; j < 4; j++)
         {
-            printf("%d", matA[i][j]);
+            printf("%d ", matA[i][j]);
         }
         printf("\n");
     }
