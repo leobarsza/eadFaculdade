@@ -2,13 +2,28 @@
 
 int main()
 {
-    int i = 10;
-    while (i > 0)
+
+    float nota;
+
+    printf("Digite a nota do aluno: ");
+
+    scanf("%f", &nota);
+
+    switch (nota)
     {
-        printf("i: %d\n", i);
-        i--;
+
+    case (nota >= 70):
+
+        printf("Aluno pertence ao Grupo 1.\n");
+
+        break;
+
+    default:
+
+        printf("Aluno pertence ao Grupo 2.\n");
+
+        break;
     }
 
-    printf("Fim do programa");
     return 0;
 }
