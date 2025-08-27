@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "utilizarTV",
+      "request": "launch",
+      "mainClass": "TAD.utilizarTV",
+      "projectName": "faculdade_501acf2e"
+    },
+    {
       "name": "(gdb) Attach",
       "type": "cppdbg",
       "request": "attach",
